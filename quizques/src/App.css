@@ -1,0 +1,84 @@
+*{
+  background-color: rgb(103, 15, 137);
+}
+
+.table{
+  background-color: white;
+  height: 400px;
+  width: 970px;
+   position: relative; 
+  left: 20%;
+  margin-top: 100px; 
+  border-left: 5px solid rgb(207, 162, 249);
+}
+.address{
+  position: absolute;
+  top: 2%;
+  left: 45%;
+  background-color: white;
+}
+.serialno{
+  position: absolute;
+  top: 9%;
+  left: 5%;
+  background-color: white;
+}
+.ques{
+  position: absolute; 
+  top: 15%;
+  left: 35%; 
+  background-color: white;
+}
+.option1{
+  display: flex;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  background-color: white;
+}
+.gap{
+  margin-right: 130px;
+  border: 1px solid white;
+  background-color: white;
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 6px 0px 3px 0px;
+  background-color: rgb(34, 134, 234);
+  color: white;
+
+}
+.option2{
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  background-color: white;
+}
+.option3{
+  display: flex;
+  position: absolute;
+  top: 85%;
+  left: 35%;
+  background-color: white;
+}
+.b{
+  margin-right: 40px;
+  padding: 5px 20px;
+}
+.first{
+  background-color: rgb(95, 95, 247);
+  border: 1px solid rgb(95, 95, 247);
+  cursor: pointer;
+}
+.second{
+  background-color: green;
+  border: 1px solid green;
+  cursor: pointer;
+}
+.third{
+  background-color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
